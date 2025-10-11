@@ -34,7 +34,7 @@
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
                         <div class="image-wrapper">
-                            <img src="{{ asset('frontend/assets/img/profile/profile-square-1.png') }}" alt="Sarah Mitchell"
+                            <img src="{{ asset('frontend/assets/img/profile/profile-square-2.png') }}" alt="Sarah Mitchell"
                                 class="img-fluid">
                             <div class="floating-elements">
                                 <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
