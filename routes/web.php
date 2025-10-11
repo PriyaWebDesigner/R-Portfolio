@@ -2,7 +2,6 @@
 
 
 use App\Http\Controllers\Frontend\FrontendController;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
@@ -10,4 +9,3 @@ use Illuminate\Support\Facades\Route;
 //Frontend Url
 Route::get('/',[FrontendController::class,'index']);
 
-Auth::routes();
