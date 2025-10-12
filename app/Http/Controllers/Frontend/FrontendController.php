@@ -11,4 +11,40 @@ class FrontendController extends Controller
     {
         return view ('frontend.index');
     }
+    
+    public function about ()
+    {
+        return view ('frontend.about');
+    }
+    
+    public function resume ()
+    {
+        return view ('frontend.resume');
+    }
+    
+    public function service ()
+    {
+        return view ('frontend.service');
+    }
+
+    public function serviceDetails ()
+    {
+        return view ('frontend.service-details');
+    }
+    
+    public function portfolio ()
+    {
+        return view ('frontend.portfolio');
+    }
+
+    public function portfolioDetails ()
+    {
+        return view ('frontend.portfolio-details');
+    }
+
+    
+    public function contact ()
+    {
+        return view ('frontend.contact');
+    }
 }
