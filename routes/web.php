@@ -16,3 +16,7 @@ Route::get('/portfolio',[FrontendController::class,'portfolio']);
 Route::get('/portfolio-details',[FrontendController::class,'portfolioDetails']);
 Route::get('/contact',[FrontendController::class,'contact']);
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -13,21 +13,19 @@
                         </h1>
                         <h2 data-aos="fade-up" data-aos-delay="300">Creative <span class="typed"
                                 data-typed-items="Digital Marketer, Freelancer, Data Analyser"></span></h2>
-                        <p data-aos="fade-up" data-aos-delay="400">Welcome! I'm Ranjit, a dedicated Digital Marketing
-                            Specialist driven by a profound passion for leveraging the power of the digital landscape to
-                            propel businesses forward. With a deep-rooted passion for all things digital, I thrive on
-                            crafting Innovative Strategies and Executing Campaigns that captivate audiences and elevate
-                            brands to new heights. I have honed my skills and expertise to become a trusted partner in
-                            navigating the complexities of the digital realm.</p>
+                        <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur voluptatum ducimus fugit repellat dolores veniam culpa et ea cum atque?
+                        </p>
                         <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
                             <a href="portfolio.html" class="btn btn-primary">View My Work</a>
                             <a href="contact.html" class="btn btn-outline">Get In Touch</a>
                         </div>
                         <div class="social-links" data-aos="fade-up" data-aos-delay="600">
-                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            {{-- <a href="#"><i class="bi bi-twitter"></i></a> --}}
                             <a href="#"><i class="bi bi-linkedin"></i></a>
-                            <a href="#"><i class="bi bi-github"></i></a>
-                            <a href="#"><i class="bi bi-dribbble"></i></a>
+                            {{-- <a href="#"><i class="bi bi-github"></i></a> --}}
+                            <a href="#"><i class="bi fa-brands fa-upwork"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +34,7 @@
                         <div class="image-wrapper">
                             <img src="{{ asset('frontend/assets/img/profile/profile-square-2.png') }}" alt="Sarah Mitchell"
                                 class="img-fluid">
-                            <div class="floating-elements">
+                            {{-- <div class="floating-elements">
                                 <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
                                     <i class="bi bi-palette"></i>
                                     <span>Design</span>
@@ -49,7 +47,7 @@
                                     <i class="bi bi-lightbulb"></i>
                                     <span>Ideas</span>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
