@@ -15,7 +15,8 @@
           <div class="col-lg-5">
             <div class="info-box" data-aos="fade-up" data-aos-delay="200">
               <h3>Contact Info</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <br>
+              {{-- <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p> --}}
 
               <div class="info-item" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
@@ -24,7 +25,7 @@
                 <div class="content">
                   <h4>Our Location</h4>
                   <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  {{-- <p>New York, NY 535022</p> --}}
                 </div>
               </div>
 
@@ -34,7 +35,7 @@
                 </div>
                 <div class="content">
                   <h4>Phone Number</h4>
-                  <p>+1 5589 55488 55</p>
+                  {{-- <p>+1 5589 55488 55</p> --}}
                   <p>+1 6678 254445 41</p>
                 </div>
               </div>
@@ -45,7 +46,7 @@
                 </div>
                 <div class="content">
                   <h4>Email Address</h4>
-                  <p>info@example.com</p>
+                  {{-- <p>info@example.com</p> --}}
                   <p>contact@example.com</p>
                 </div>
               </div>
@@ -55,7 +56,8 @@
           <div class="col-lg-7">
             <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
               <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <br>
+              {{-- <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p> --}}
 
               <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
