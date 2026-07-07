@@ -11,8 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('performance_metrics', function (Blueprint $table) {
+        Schema::create('portfolios', function (Blueprint $table) {
             $table->id();
+            $table->string('image');
+            $table->longText('title');
+            $table->string('portfolio_name');
+            $table->text('sub_portfolio');
             $table->timestamps();
         });
     }
@@ -22,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('performance_metrics');
+        Schema::dropIfExists('portfolios');
     }
 };

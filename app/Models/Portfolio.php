@@ -10,4 +10,5 @@ class Portfolio extends Model
     use HasFactory;
 
     protected $guarded =[];
+    
 }
