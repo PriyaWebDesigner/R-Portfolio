@@ -1,7 +1,8 @@
 <?php
 
-
+use App\Http\Controllers\Backend\AuthController;
 use App\Http\Controllers\Frontend\FrontendController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
@@ -19,4 +20,6 @@ Route::get('/contact',[FrontendController::class,'contact']);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Admin Login Url
+Route::get('/admin/login', [AuthController::class, 'adminLogin'])->name('adminLogin');
+// Route::get('/admin/logout', [AuthController::class, 'adminLogout'])->name('adminLogout');
