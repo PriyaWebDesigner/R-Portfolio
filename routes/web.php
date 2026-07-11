@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\AuthController;
+use App\Http\Controllers\Backend\ResumeController;
 use App\Http\Controllers\Frontend\FrontendController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -27,3 +28,11 @@ Route::get('/admin/login', [AuthController::class, 'adminLogin'])->name('adminLo
 
 //Admin Pannel
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('adminDashboard');
+
+// Education Routes
+Route::get('/admin/create-resume', [ResumeController::class, 'create'])->name('resume.create');
+Route::post('/admin/store-resume', [ResumeController::class, 'store'])->name('resume.store');
+Route::get('/admin/show-resume', [ResumeController::class, 'show'])->name('resume.show');
+Route::get('/admin/delete-resume/{id}', [ResumeController::class, 'delete'])->name('resume.delete');
+Route::get('/admin/edit/resume/{id}', [ResumeController::class, 'edit'])->name('resume.edit');
+Route::post('/admin/update/resume/{id}', [ResumeController::class, 'update'])->name('resume.update');
