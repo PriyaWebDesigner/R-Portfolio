@@ -35,6 +35,13 @@ class ResumeController extends Controller
         return view ('backend.resume.list',compact('resumes'));
     }
 
+    public function delete ($id)
+    {
+        $education = Resume::find($id);
+        $education->delete();
+        return redirect()->back();
+    }
+
     public function edit ($id)
     {
         $resume = Resume::find($id);
